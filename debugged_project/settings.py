@@ -28,6 +28,7 @@ SECRET_KEY = 'django-insecure-^-(pof^#!-6++)(mem)zwxu3hrd7@le3k5)f1%3hwzf0=4vs88
 DEBUG = False
 
 ALLOWED_HOSTS = [
+    "debugged-backend-1.onrender.com",  # Your backend hosted on Render
     "codedebugged.netlify.app",     # Your frontend hosted on Netlify
     "localhost",
     "127.0.0.1"
