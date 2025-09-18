@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database (optional, if you’re not using it in production)
+db.sqlite3
+
+# Static & media (if generated locally)
+# /staticfiles/
+# /media/
+
+# VSCode / PyCharm settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
