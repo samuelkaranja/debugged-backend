@@ -14,3 +14,9 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+    @property
+    def image_url(self):
+        if self.image:
+            return self.image.url   # ✅ this generates the full Cloudinary URL
+        return ""
