@@ -118,18 +118,11 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 CKEDITOR_CONFIGS = {
     "default": {
-        "toolbar": "Custom",
-        "extraPlugins": "codesnippet",
-        "toolbar_Custom": [
-            ["Bold", "Italic", "Underline"],
-            ["NumberedList", "BulletedList"],
-            ["Link", "Unlink"],
-            ["CodeSnippet"],  # </> button in admin editor
-            ["RemoveFormat", "Source"],
-        ],
-        "height": 300,
-        "width": "100%",
-        "codeSnippet_theme": "monokai_sublime",
+        "toolbar": "full",   # ✅ use the full toolbar set
+        "extraPlugins": "codesnippet",  # enable Code Block plugin
+        "height": 400,
+        "width": 600,
+        "codeSnippet_theme": "monokai_sublime",  # syntax highlighting theme
     }
 }
 
